@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import SocialLinks from "./components/SocialLinks";
 
 const queryClient = new QueryClient();
 
@@ -32,6 +33,7 @@ const App = () => (
             </Routes>
           </main>
           <Footer />
+          <SocialLinks floating={true} />
         </div>
       </BrowserRouter>
     </TooltipProvider>
