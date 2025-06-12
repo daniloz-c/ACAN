@@ -6,28 +6,14 @@ import AdaltoDoeLeite from "../img/adalto campanha doe leite-8.png";
 
 const DonationSection = () => {
     return (
-        <section className="relative py-16 bg-gray-50 overflow-hidden">
-            {/* Imagem esquerda */}
-            <img
-                src={AdaltoDoeLeite}
-                alt="Adalto Doe Leite"
-                className="absolute left-0 md:w-50 lg:w-30 opacity-70"
-            />
-
-            {/* Imagem direita */}
-            <img
-                src={AdaltoCachecol}
-                alt="Adalto Cachecol"
-                className="absolute right-0 md:w-18 lg:w-30 opacity-70"
-            />
-
-            <div className="relative z-10 container mx-auto px-4">
-                <h2 className="section-title text-center">Como Doar</h2>
-                <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
-                    Sua doação é fundamental para mantermos nossas portas
-                    abertas e continuarmos oferecendo suporte aos pacientes em
-                    tratamento contra o câncer.
-                </p>
+        <section className="py-5 bg-gray-50">
+                <div className="relative z-10 container mx-auto px-4">
+                    <h2 className="section-title text-center">Como Doar</h2>
+                    <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
+                        Sua doação é fundamental para mantermos nossas portas
+                        abertas e continuarmos oferecendo suporte aos pacientes em
+                        tratamento contra o câncer.
+                    </p>
 
                 <div className="max-w-4xl mx-auto">
                     <Tabs defaultValue="pix" className="w-full">
